@@ -3,7 +3,7 @@ services:
   web:
     image: php:7.4-apache
     volumes:
-      - ./php-login-app:/var/www/html
+      - ./test:/var/www/html
     ports:
       - "8081:80"
   db:
